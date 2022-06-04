@@ -3,21 +3,46 @@ int clave_profesor;
 string nombre;
 string apellido;
 string especialidad;
-string cargo
+string cargo;
+private string dictar_clase;
+private int calificaciones;
 
-
-  public Profesor( int clave_profesor) { 
-           this.clave_profesor
+  public Profesor( int clave_profesor,string nombre,string apellido,string especialidad,string cargo) { 
+           
 }
 
- public void setclave_profesor(int clave_profesor){
-            if ( typeof(int).IsInstanceOfType(Clave)) {
-                this.clave_profesor = Clave;
-            }
-            else {
-                Console.WriteLine("El tipo introducido es incorrecto");
-                }
-                    public int getclave_profesor(){
-            return clave_profesor;
-        }
-                }
+public string dictar_clase (){
+return dictar_clase
+}
+public int calificaciones(){
+return califcacines                
+}
+}
+
+
+public class Alumno{
+int clave_alum;
+string nombre;
+string apellido;
+int num_cred;
+private int pagar;
+private int retirarse;
+private int aplazar;
+
+
+  public Alumno( int clave_alumr,string nombre,string apellido,int num_cred) { 
+           
+}
+Public int pagar(){
+return pagar;
+}
+Public int retirarse(){
+return aplazar;
+}
+Public int aplazar(){
+return aplazar;
+}
+}
+
+
+
