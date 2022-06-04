@@ -1,0 +1,23 @@
+public class Profesor{
+int clave_profesor;
+string nombre;
+string apellido;
+string especialidad;
+string cargo
+
+
+  public Profesor( int clave_profesor) { 
+           this.clave_profesor
+}
+
+ public void setclave_profesor(int clave_profesor){
+            if ( typeof(int).IsInstanceOfType(Clave)) {
+                this.clave_profesor = Clave;
+            }
+            else {
+                Console.WriteLine("El tipo introducido es incorrecto");
+                }
+                    public int getclave_profesor(){
+            return clave_profesor;
+        }
+                }
